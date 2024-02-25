@@ -1,0 +1,12 @@
+public class Calculator {
+    public static int sum(int a, int b){
+        return a+b;
+    }
+    public static float sum(float a, float b){
+        return a+b;
+    }
+    public static void main(String[] args) {
+        System.out.println(sum(3,8));
+        System.out.println(sum(7.8f,8.2f));
+    }
+}
